@@ -1,0 +1,675 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 0px 200px;
+}
+
+.header{
+    background-image: url(bg-header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.header-text{
+    margin-right: 35px;
+}
+
+.header-text,
+.lng {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 0.3s linear;
+} 
+ 
+.header-text:hover{
+    color: #DB2512;
+}
+
+.lng:hover{
+    color: #fff;
+} 
+
+.ru{
+    color: #B7B7B7;
+    }
+
+.header-subtitle{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 130px;
+    width: 760px;
+    margin-bottom: 64px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #DB2512;
+    padding: 11px 40px;
+    transition: background-color 0.5s linear;
+}
+
+.btn:hover{
+    background-color: #B7B7B7;
+}
+
+.card{
+    padding-left: 40px;
+    background-color: #fff;
+    margin-top: -100px; 
+    width: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.margin{
+    margin-right: 20px;
+}
+
+.card-cont{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.card-img{
+    padding-top: 30px;
+    padding-bottom: 21px;
+}
+
+.card-png{
+    margin-right: 317px;
+}
+
+.title-card{
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.subtitle-card{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 37px;
+}
+
+.service-title{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 17px;
+}
+
+.srv-sbt{
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+
+.service-subtitle{
+    padding-bottom: 60px;
+}
+
+.cards-srv{
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-between;
+ }
+
+.bright{
+    transition: filter 0.5s linear;
+}
+
+.burk{
+    position: relative;
+}
+
+
+.burk:hover div{
+    filter: brightness(40%);
+}
+
+.burk:hover .plus-png{
+    opacity: 1;
+}
+
+.burk:hover .burk-undertext{
+    opacity: 1;
+}
+
+.burk-undertext{
+    position: absolute;
+    z-index: 999;
+    top: 360px;
+    left: 29px;
+    width: 269px;
+    color: #fff;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+ .c-srv{
+    width: auto;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.plus-png{
+    position: absolute;
+    top: 206px;
+    left: 152px;
+    background-color: #DB2512;
+    padding: 40px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+.text-srv{
+    font-weight: 600;
+}
+
+.about-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    width: 475px;
+    padding-bottom: 42px;
+    color: #fff;
+}
+
+.about-subtitle{
+    font-size: 15px;
+    font-weight: 600;
+    width: 355px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+
+.about-us{
+    background-color:  #171616;
+    padding-top: 120px;
+}
+
+.about-link{
+    padding-bottom: 116px;
+}
+
+.link{
+    color:#fff
+}
+
+.about{
+    display: flex;
+}
+
+.about-us-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img{
+    width: 513px;
+}
+
+.work-title{
+    font-size: 148px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.work-subtitle{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.work-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+    margin-bottom: 100px;
+}
+
+.work-card{
+    width: 386px;
+    padding: 27px 28px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.card-title{
+    text-transform: uppercase;
+}
+
+.contact-us{
+    background-color: #171616;
+}
+
+.contact-title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 46px;
+    padding-top: 97px;
+}
+
+.full-name{
+    padding-bottom: 45px;
+}
+
+.name,
+.email{
+    margin-right: 45px;
+}
+
+.message{
+    color: #fff;
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+
+.msg-box{
+    margin-bottom: 37px;
+}
+
+.ctn-btn{
+    padding-bottom: 100px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+
+input::placeholder{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.full-name input,
+.container textarea{
+    color: #fff;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+.info input{
+    color: #fff;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+.cont-nes{
+    display: flex;
+    margin-top: 66px;
+    margin-bottom: 61px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+@media(max-width: 1600px) {
+    .margin{
+        margin-right: 0px;
+    }
+    .c-srv{
+        width: 350px;
+    }
+    .card{
+        width: 320px;
+        padding-left: 30px;
+    }
+    .plus-png{
+        top: 190px;
+        left: 130px;
+    }
+    .burk-undertext{
+        top: 390px;
+    }
+}
+
+@media(max-width: 1460px) {
+    .c-srv{
+        width: 310px;
+        height: 400px;
+    }
+    .card{
+        width: 280px;
+        padding-left: 30px;
+    }
+    .plus-png{
+        top: 160px;
+        left: 110px;
+    }
+    .burk-undertext{
+        top: 290px;
+    }
+}
+
+@media(max-width: 1340px) {
+    .c-srv{
+        width: 280px;
+        height: 400px;
+    }
+    .card{
+        width: 250px;
+        padding-left: 30px;
+    }
+    .plus-png{
+        top: 160px;
+        left: 100px;
+    }
+    .burk-undertext{
+        width: 230px;
+    }
+
+}
+
+@media(max-width: 1230px) {
+    .c-srv{
+        width: 250px;
+        height: 370px;
+    }
+    .card{
+        width: 220px;
+        padding-left: 30px;
+    }
+    .a-img{
+        width: 95%;
+    }
+    .about-title{
+        margin-right: 30px;
+    }
+    .plus-png{
+        top: 150px;
+        left: 80px;
+    }
+    .burk-undertext{
+        width: 200px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width: 1160px) {
+    .c-srv{
+        width: 230px;
+        height: 340px;
+    }
+    .card-cont{
+        display: block;
+    }
+    .card{
+        margin-top: 50px;
+        width: auto;
+    }
+    .plus-png{
+        top: 140px;
+        left: 80px;
+    }
+    .work-card{
+        font-size: 12px;
+    }
+    .work-card-subtitle{
+        font-size: 11px;
+    }
+    .plus-png{
+        top: 115px;
+        left: 76px;
+    }
+    .burk-undertext{
+        width: 200px;
+        font-size: 12px;
+        top: 270px;
+    }
+}
+
+@media(max-width: 1090px) {
+    .cards-srv{
+        display: block;
+    }
+    .c-srv{
+        width: 100%;
+        height: 100%;
+    }
+    .a-img{
+        display: none;
+    }
+    .header-title{
+        display: none;
+    }
+    .plus-png{
+        top: 326px;
+        left: 237px;
+        padding: 100px;
+    }
+    .burk-undertext{
+        width: 450px;
+        font-size: 30px;
+        top: 656px;
+    }
+    .text-srv{
+        margin-bottom: 45px;
+    }
+    .lng{
+        font-size: 30px;
+    }
+
+    .about-title,
+    .about-subtitle,
+    .about-link{
+        margin-left: 15%;
+        width: auto;
+    }
+    .about-title{
+        font-size: 40px;
+    }
+    .about-subtitle{
+        font-size: 30px;
+    }
+    .about-link{
+        font-size: 25px;
+    }
+    .title-card{
+        font-size: 30px;
+    }
+    .subtitle-card{
+        font-size: 25px;
+    }
+    .text-srv{
+        font-size: 40px;
+    }
+    .work-card{
+        font-size: 45px;
+        width: auto;
+        margin-bottom: 25px;
+    }
+    .work-cards{
+        display: block;
+    }
+    .work-card-subtitle{
+        font-size: 35px;
+    }
+    .name,
+    .email{
+        display: flex;
+        margin-bottom: 25px;
+    }
+    .name,
+    .email,
+    .last-name,
+    .phone{
+        padding: 20px;
+        width: 100%;
+    }
+    input::placeholder{
+        font-size: 25px;
+    }
+    .contact-title{
+        font-size: 40px;
+    }
+    .btn{
+        padding: 28px 111px;
+        margin-left: 30%;
+    }
+    .service-title{
+        font-size: 65px;
+    }
+    .srv-sbt{
+        font-size: 45px;
+    }
+    .message{
+        font-size: 40px;
+    }
+    .msg-box{
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 900px) {
+    .header-subtitle{
+        width: auto;
+    }
+    .btn{
+        padding: 10px 25px;
+        margin-left: 0;
+    }
+    .container{
+        margin: 0 100px;
+    }
+    
+}
+
+@media(max-width: 600px) {
+    .plus-png{
+        top: 140px;
+        left: 115px;
+        padding: 50px;
+    }
+    .burk-undertext{
+        top: 290px;
+        font-size: 15px;
+        width: 150px;
+    }
+    .about-title,
+    .about-subtitle,
+    .about-link{
+        margin-left: 0;
+    }
+    .margin{
+        margin: 0 35px;
+    }
+}
+
+@media(max-width: 450px) {
+    .header{
+        height: 27vh;
+    }
+    .l-i{
+        width: 50%;
+    }
+    .lng{
+        font-size: 15px;
+    }
+    .header-subtitle{
+        font-size: 15px;
+        margin-top: 23px;
+        margin-bottom: 17px;
+    }
+    .btn{
+        margin-bottom: 25px;
+    }
+    .title-card{
+        font-size: 10px;
+    }
+    .subtitle-card{
+        font-size: 8px;
+    }
+    .margin{
+        margin: 0 10px;
+    }
+    .card-png{
+        width: 15%;
+    }
+    .header{
+        margin-bottom: 20px;
+    }
+    .card{
+        width: auto;
+    }
+    .margin{
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .service-title{
+        font-size: 20px;
+    }
+    .srv-sbt{
+        font-size: 15px;
+    }
+    .text-srv{
+        font-size: 15px;
+    }
+    .about-title{
+        font-size: 20px;
+    }
+    .about-subtitle{
+        font-size: 15px;
+    }
+    .work-title{
+        font-size: 31px;
+    }
+    .work-subtitle{
+        font-size: 20px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .work-card-subtitle{
+        font-size: 15px;
+    }
+    .contact-title{
+        font-size: 25px;
+    }
+    .plus-png{
+        top: 55px;
+        left: 40px;
+    }
+    .burk-undertext{
+        top: 185px;
+        font-size: 11px;
+    }
+    .card-png{
+        margin-right: 0;
+    }
+}
